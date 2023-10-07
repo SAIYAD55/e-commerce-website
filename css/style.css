@@ -1,0 +1,191 @@
+/* *{
+    border: 0;
+    padding: 0;
+} */
+
+/* styles.css */
+
+/* Apply a background color and style the header */
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding-top: 2px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* Style the search bar */
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style the user menu */
+.user-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.name {
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Add more CSS styles as needed to achieve your desired design */
+
+.head-section {
+    background-color: rgba(255, 251, 240, 1);
+    border-radius: 2rem;
+    margin-top: 6rem;
+}
+
+.shop-navbar {
+    background-color: 0;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#text-style {
+    color: rgba(250, 190, 76, 1);
+    font-size: 80px;
+}
+
+.text-style2 {
+    font-size: 80px;
+}
+
+.shop-catagory,
+.text-style2 {
+    color: rgba(54, 57, 88, 1);
+}
+
+.shop-card-img {
+    padding: 5%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 4% auto;
+}
+
+.shop-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.shop-card-border,
+.shop-card-img {
+    border-radius: 1em;
+}
+
+.price-text-style {
+    color: rgba(250, 190, 76, 1);
+    font-weight: bold;
+}
+
+.shop-card-footer,
+.shop-card-border {
+    background-color: white;
+    border: 0;
+}
+
+.shop-btn {
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+}
+
+.footer-section {
+    margin-top: 25px;
+    background-color: hsla(72, 47%, 51%, 0.486);
+    padding: 2% 1% 1% 1%;
+}
+
+
+.button:hover {
+    border-color: #3330;
+    background-color: rgb(34, 225, 47);
+}
+
+
+.fa {
+    padding-top: 6px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #55ACEE;
+    color: white;
+    margin-left: 600px;
+}
+
+.fa-instagram {
+    background: white;
+    color: #E4405F;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.footern {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footern>a {
+    text-decoration: none;
+}
